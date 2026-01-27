@@ -9,9 +9,11 @@ This repository implements a complete computational pipeline for RNA toehold swi
 - Biophysical optimization guided by RNA secondary structure and thermodynamics  
 
 The code is organized to emphasize methodological clarity and reproducibility. This document is intended to help reviewers quickly understand the structure, purpose, and execution flow of the project.
+
 <p align="center">
-  <img src="Flowchart.png" width="600">
+  <img src="Flowchart.png" width="900">
 </p>
+
 ## Overall Pipeline
 ```
 Diffusion-based generation
