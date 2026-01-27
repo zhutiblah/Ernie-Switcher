@@ -1,5 +1,5 @@
 
-# RNA Toehold Switch Design via Diffusion Generation, Prediction and Biophysical Optimization
+# Ernie-Switcher: de novo evolutionary design of high-performance RNA switches by combining large language model and deep learning
 
 ## Overview
 This repository implements a complete computational pipeline for RNA toehold switch design, integrating:
@@ -9,7 +9,9 @@ This repository implements a complete computational pipeline for RNA toehold swi
 - Biophysical optimization guided by RNA secondary structure and thermodynamics  
 
 The code is organized to emphasize methodological clarity and reproducibility. This document is intended to help reviewers quickly understand the structure, purpose, and execution flow of the project.
-
+<p align="center">
+  <img src="Flowchart.png" width="600">
+</p>
 ## Overall Pipeline
 ```
 Diffusion-based generation
