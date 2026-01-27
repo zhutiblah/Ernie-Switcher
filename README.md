@@ -18,42 +18,6 @@ Prediction of ON / OFF translation strength
         ↓
 Biophysical optimization (structure and energy guided)
 ```
-
-## Project Structure
-```
-generation_optimization/
-├── train_cifar.py
-├── diffusion.py
-├── unet.py
-├── ema.py
-├── script_utils.py
-├── main_opt_biophysical.py
-├── make_synthetic_toehold_switch.py
-├── rna_switch_energy.py
-├── utils.py
-├── utils_extra.py
-├── test_complete.py
-
-prediction/
-├── on_structure_test1.py
-├── off_structure_test1.py
-├── switch_predict.py
-├── sequence_classification.py
-├── api_server.py
-├── testapi.py
-├── bio_feature.py
-├── base_classes.py
-├── tokenizer_nuc.py
-├── dataset_utils.py
-├── visualizer.py
-
-analysis_visualization/
-├── compute_structural_agreement.py
-├── plot_k_mer_corre.py
-├── make_paper_figure.py
-├── vis_data.py
-```
-
 ## Generation Module: Diffusion Model
 **Purpose**  
 Learns a distribution over valid RNA toehold switch sequences using a denoising diffusion probabilistic model (DDPM).
