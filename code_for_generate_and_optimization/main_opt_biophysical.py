@@ -15,9 +15,9 @@ from Bio.Seq import Seq
 from switch_predict import ToeholdPredictorSimplified
 
 
-MFE_ON_RANGE  = (-76.4, -56.9)
-MFE_OFF_RANGE = (-39.9, -28.5)
-GC_ON_RANGE   = (0.384, 0.486)
+MFE_ON_RANGE  = (-82, -56)
+MFE_OFF_RANGE = (-46, -28)
+GC_ON_RANGE   = (0.36, 0.52)
 
 ITEM_PEN_MAX  = 0.1
 TOTAL_PEN_MAX = 0.3 - 1e-6
@@ -316,7 +316,7 @@ def blackbox_objective_z_tensor(z_flat_np, diffusion_model, predictor, shape=(51
     penalty = pen_gc + pen_on + pen_off
     penalty = min(penalty, TOTAL_PEN_MAX)
 
-    mean_radio = mean_radio + penalty
+    mean_radio = mean_radio − penalty
 
 
     return -mean_radio, sequences, ons, offs, radios, toehold_switch_sequence, Trigger_rnas, Off_sequences, On_sequences, MFE_ons, MFE_offs, DeltaDel_MFE
