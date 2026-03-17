@@ -76,8 +76,8 @@ def construct_toehold_trigger_from_list(merged_list):
 
         Ttigger_rna.append(trigger)
 
-        on_seq =  pre_sequence + promoter + loop1 + switch + loop2 + stem1 + atg + stem2 + linker + post_linker
-        off_sequence = pre_sequence + promoter + trigger + loop1 + switch + loop2 + stem1 + atg + stem2 + linker + post_linker
+        on_seq =  pre_sequence + promoter + trigger + loop1 + switch + loop2 + stem1 + atg + stem2 + linker + post_linker
+        off_sequence = pre_sequence + promoter+ loop1 + switch + loop2 + stem1 + atg + stem2 + linker + post_linker
 
         On_sequences.append(on_seq )   
         Off_sequences.append(off_sequence)     
