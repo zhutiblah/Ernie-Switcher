@@ -1,5 +1,5 @@
 
-# Ernie-Switcher: de novo evolutionary design of high-performance RNA switches by combining large language model and deep learning
+# Ernie-Switcher: RNA foundation model-guided navigable design of evolvable RNA toehold switch
 
 ## Overview
 This repository implements a complete computational pipeline for RNA toehold switch design, integrating:
