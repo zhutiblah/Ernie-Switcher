@@ -1,5 +1,5 @@
 
-# Ernie-Switcher: RNA foundation model-guided navigable design of evolvable RNA toehold switch
+# Harnessing landscape navigability with RNA foundation models for programmable RNA device design
 
 ## Overview
 This repository implements a complete computational pipeline for RNA toehold switch design, integrating:
