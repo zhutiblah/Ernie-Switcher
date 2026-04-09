@@ -69,7 +69,7 @@ Refines candidate RNA sequences using black-box optimization guided by biologica
 - ON/OFF ratio  
 - GC content constraints  
 - RNA secondary structure free energy (MFE)  
-- ΔΔG between alternative structures  
+- ΔG between alternative structures  
 
 ### Key Utility Scripts
 - `make_synthetic_toehold_switch.py`  
@@ -79,7 +79,7 @@ Refines candidate RNA sequences using black-box optimization guided by biologica
   Performs RNA secondary structure and thermodynamic analysis:
   - RNAfold / RNAcofold  
   - MFE computation  
-  - ΔΔG calculation  
+  - ΔG calculation  
   - Structure parsing  
 
 ## RNAErnie Large Model
