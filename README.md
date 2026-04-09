@@ -11,7 +11,7 @@ This repository implements a complete computational pipeline for RNA toehold swi
 The code is organized to emphasize methodological clarity and reproducibility. This document is intended to help reviewers quickly understand the structure, purpose, and execution flow of the project.
 
 <p align="center">
-  <img src="Flowchart.png" width="900">
+  <img src="Figure1_01.png" width="900">
 </p>
 
 ## Overall Pipeline
